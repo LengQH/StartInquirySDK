@@ -1,2 +1,2 @@
-# UMP Inquiry SDK
-UMP Client initiates video interrogation.
+# StartInquirySDK
+Client initiates video interrogation.

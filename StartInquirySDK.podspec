@@ -1,7 +1,7 @@
 
 
 #
-#  Be sure to run `pod spec lint UMPInquirySDK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint StartInquirySDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -13,12 +13,12 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "InquirySDK"
-  spec.version      = "1.0.0"
+  spec.name         = "StartInquirySDK"
+  spec.version      = "0.0.1"
   spec.summary      = "Video consultation SDK."
   spec.description  = "Start to initialize SDK"
 
-  spec.homepage     = "https://github.com/LengQH/UMPInquirySDK"
+  spec.homepage     = "https://github.com/LengQH/StartInquirySDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -30,14 +30,14 @@ Pod::Spec.new do |spec|
  
 
 
-  spec.source       = { :git => "https://github.com/LengQH/UMPInquirySDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/LengQH/StartInquirySDK.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files = "**/UMPInquirySDK/*.{h}"
-  spec.ios.vendored_libraries = "**/UMPInquirySDK/libUMPInquirySDK.a"
-  # spec.vendored_libraries = "**/UMPInquirySDK/*.{a}"
+  spec.source_files = "**/StartInquirySDK/*.{h}"
+  spec.ios.vendored_libraries = "**/StartInquirySDK/libUMPInquirySDK.a"
+  # spec.vendored_libraries = "**/StartInquirySDK/*.{a}"
   # spec.vendored_frameworks = "引用自己的动态库"
-  spec.resource = ['**/UMPInquirySDK/Library/UMPImageList.bundle','**/UMPInquirySDK/Library/UMPXIBList.bundle','**/UMPInquirySDK/Library/TUIKitResource.bundle']
+  spec.resource = ['**/StartInquirySDK/Library/UMPImageList.bundle','**/StartInquirySDK/Library/UMPXIBList.bundle','**/StartInquirySDK/Library/TUIKitResource.bundle']
 
 
   spec.static_framework = true
